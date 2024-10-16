@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    background: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+
+    img{
+        padding-left: 50px;
+        height: 15vh;
+    }
+    nav{
+        display: flex;
+        width: 350px;
+        padding-right: 50px;
+        justify-content: space-around ;
+        
+        .button1{
+            background: #DF0712;
+            height: 35px;
+            width: 170px;
+            border-radius: 5px;
+            font-size: 17px;
+        }
+
+        .button2{
+            width: 80px;
+            background-color: black;
+            border-radius: 5px;
+            font-size: 17px;
+            border-color: rgba(255, 255, 255, 0.821);
+        }
+    }
+}
+
+main{
+    background: #181818;
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 110vh;
+        padding: 50px;
+    }
+}
+
+.FirstContainer{
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 4vh;
+
+    span{
+        display: block;
+    }
+
+    img{
+        height: 20vh;
+    }
+}
+
+.SecondContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+
+    img{
+        width: 23vw;
+    }
+}
+
+.ThirdContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+
+    article{
+        width: 23vw;
+    }
+}
+
+footer{
+    background: #111111;
+    height: 10vh;
+}
