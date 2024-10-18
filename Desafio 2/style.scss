@@ -1,33 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     color: white;
+    font-family: "Noto Sans", sans-serif;
 }
 
 header{
     display: flex;
     align-items: center;
     background: #FF69B4;
-    font-size: 15px;
-    justify-content: space-around;
+    font-size: 3vh;
+    justify-content: space-around; 
+    height: 18vh;
+    width: 100vw;
     
     section{
         display: flex;
         align-items: center;
-        width: 50vw;
+        width: 30vw;
+
+        img{
+            height: 7vw;
+        }
+
+        h1{
+            font-weight: 300;
+        }
     }
 
     nav{
-        width: 40vw;
+        width: 60vw;
+        font-weight: 300;
 
         ul{
             display: flex;
             align-items: center;
-            justify-content: space-around;
+            justify-content: space-between;
             list-style: none;
-            font-size: 3vh;
+            font-size: 4vh;
         }
     }
 }
@@ -36,13 +51,15 @@ header{
     display: flex;
     align-items: center;
     background: #FFD9EC;
-    font-size: 30px;
+    font-size: 1vw;
     justify-content: space-around;
-    height: 60vh;
+    height: 61vh;
+    width: 100vw;
 
     p{
-        width: 40vw;
+        width: 45vw;
         color: black;
+        font-size: 4vh;
     }
 
     img{
@@ -56,14 +73,16 @@ header{
     background: #FF69B4;
     font-size: 30px;
     justify-content: space-around;
-    height: 35vh;
+    height: 42vh;
+    width: 100vw;
 
     p{
-        width: 60vw;
+        width: 44vw;
+        font-size: 4vh;
     }
 
     img{
-        width: 26vw;
+        width: 29vw;
     }
 }
 
@@ -73,6 +92,11 @@ header{
     justify-content: space-around;
     background: #FFD9EC;
     height: 60vh;
+    width: 100vw;
+
+    img{
+        height: 20vw;
+    }
 }
 
 footer{
@@ -81,15 +105,27 @@ footer{
     justify-content: space-around;
     background: #FF69B4;
     height: 18vh;
+    width: 100vw;
+
+    figure{
+        display: flex;
+        width: 20vw;
+        justify-content: space-between;
+        img{
+            width: 4vw;
+        }
+    }
+
     ul{
         display: flex;
         list-style: none;
         flex-direction: column;
         align-items: center;
+        font-size: 3vh;
+        font-weight: 300;
     }
-    figure{
-        display: flex;
-        width: 18vw;
-        justify-content: space-between;
+
+    img{
+        width: 7vw;
     }
 }
